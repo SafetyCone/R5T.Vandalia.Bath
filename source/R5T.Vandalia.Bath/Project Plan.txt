@@ -1,0 +1,4 @@
+R5T.Vandalia.Bath - A Bath-based IValueEqualityComparer<T> service implementation for the Vandalia project.
+
+Goals
+
