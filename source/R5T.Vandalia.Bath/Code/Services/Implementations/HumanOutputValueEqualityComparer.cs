@@ -10,7 +10,7 @@ namespace R5T.Vandalia.Bath
     /// </summary>
     public abstract class HumanOutputValueEqualityComparer<T> : IValueEqualityComparer<T>
     {
-        private IHumanOutput HumanOutput { get; }
+        protected IHumanOutput HumanOutput { get; }
 
 
         public HumanOutputValueEqualityComparer(IHumanOutput humanOutput)
